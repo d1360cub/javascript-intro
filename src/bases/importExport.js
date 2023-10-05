@@ -1,7 +1,7 @@
 import heroes, { owners } from '../data/heroes';
 
-owners.map((owner) => console.log(owner));
-heroes.map((hero) => console.log(hero.name));
+//owners.map((owner) => console.log(owner));
+//heroes.map((hero) => console.log(hero.name));
 
 export const getHeroById = (id) => {
   return heroes.find((hero) => hero.id == id);

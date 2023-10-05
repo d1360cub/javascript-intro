@@ -1,1 +1,1 @@
-console.log('import and export');
+console.log('promises');
