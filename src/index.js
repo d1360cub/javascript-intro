@@ -1,1 +1,1 @@
-console.log('era con some!!!');
+console.log('hola destructuring');
