@@ -1,1 +1,1 @@
-console.log('hola destructuring');
+console.log('import and export');
