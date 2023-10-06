@@ -11,10 +11,12 @@ const giphyApi = axios.create({
   },
 });
 
-giphyApi.get('/random').then((resp) => {
+/*giphyApi.get('/random').then((resp) => {
   const { data } = resp.data;
   const { url } = data.images.original;
   const img = document.createElement('img');
   img.src = url;
   document.body.append(img);
-});
+});*/
+
+export default giphyApi;
