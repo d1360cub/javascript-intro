@@ -1,1 +1,1 @@
-console.log('async await');
+console.log('async await fetching');
